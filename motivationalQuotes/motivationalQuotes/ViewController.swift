@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         let button = UIButton()
         button.backgroundColor = .white
         button.layer.cornerRadius = 10
-        button.setTitle("Random Quote", for: .normal)
+        button.setTitle("New Quote", for: .normal)
         button.setTitleColor(.black, for: .normal)
         return button
     }()
@@ -38,7 +38,7 @@ class ViewController: UIViewController {
         button.addTarget(self, action: #selector(generateNewQuote), for: .touchUpInside)
     }
     
-    let randomColors: [UIColor] = [.systemBlue, .systemRed, .systemCyan, .systemGray, .systemMint, .systemPink, .magenta, .systemIndigo, .systemOrange, .systemPurple, .systemTeal, .systemYellow, .green, .brown, .systemGray2, .systemGray3, .systemGray4, .systemGray5, .systemGray6, .clear, .lightGray]
+    let randomColors: [UIColor] = [.systemBlue, .systemRed, .systemCyan, .systemGray, .systemMint, .systemPink, .magenta, .systemIndigo, .systemOrange, .systemPurple, .systemTeal, .systemYellow, .green, .brown, .systemGray2, .systemGray3, .clear, .lightGray]
     
     @objc func generateNewQuote(){
         getRandomQuote()
@@ -72,56 +72,29 @@ class ViewController: UIViewController {
         "Man is made by his belief. As he believes, so he is. ~ Bhagavad Gita",
         "When meditation is mastered, the mind is unwavering like the flame of a lamp in a windless place. ~ Bhagavad Gita",
         "Work is of utmost importance and one must work with dedication without always worrying about results. ~ Bhagavad Gita",
-        "Love lives by giving and forgiving. Ego lives by getting and forgetting. ~ Sri Sathya Sai Baba",
-        "Education should be for life, not for a living. ~ Sri Sathya Sai Baba",
-        "We do not need different kinds of 'information'. We need 'transformation'. ~ Sri Sathya Sai Baba",
-        "Money comes and goes. Morality comes and grows. ~ Sri Sathya Sai Baba",
-        "Study to be steady. ~ Sri Sathya Sai Baba",
-        "Those anxious to live in joy must always be doing good. ~ Sri Sathya Sai Baba",
-        "Work is worship. Duty is God. ~ Sri Sathya Sai Baba",
-        "Removal of immortality is the only way to immortality. ~ Sri Sathya Sai Baba",
-        "The best way to love God is to love all and serve all. ~ Sri Sathya Sai Baba",
-        "Conscience is our real power, strength, and awareness. ~ Sri Sathya Sai Baba",
-        "Some say that knowledge is power, but it is not true. Character is power. ~ Sri Sathya Sai Baba",
-        "Humanness means unity in thought, word, and deed. ~ Sri Sathya Sai Baba",
-        "Gratitude is our life-breath. ~ Sri Sathya Sai Baba",
-        "Love all. Serve all. Help ever. Hurt never. ~ Sri Sathya Sai Baba",
-        "You can hear the footsteps of God when silence reigns in the mind. ~ Sri Sathya Sai Baba",
-        "Love is the only wealth that does not diminish. It is the property of God. ~ Sri Sathya Sai Baba",
-        "Distance is no bar for the dawn of love, the lotus blooms as soon as the sun peeps over the horizon. ~ Sri Sathya Sai Baba",
-        "Speak with Love and it becomes Truth. ~ Sri Sathya Sai Baba",
-        "Man must realize God; see God; feel God; talk to God. This is religion. ~ Sri Sathya Sai Baba",
-        "Once we surrender our mind to God completely, He will take care of us in every way. ~ Sri Sathya Sai Baba",
-        "Grace like water, flows from a higher to a lower level. ~ Sri Sathya Sai Baba",
-        "You may worship any form, chant any name, but have firm faith in God. ~ Sri Sathya Sai Baba",
-        "If you want to become fearless - choose love. ~ Rune Lazuli",
-        "Dharma protects those who uphold or protect dharma. ~ Manusmriti - 8.15",
-        "There is nothing noble about being superior to some other man. The true nobility is in being superior to your previous self. ~ Hindu Proverb",
-        "If you change the way you look at things, the things you look at change. ~ Wayne Dyer",
-        "The way I see it, if you want the rainbow, you gotta put up with the rain. ~ Dolly Parton",
-        "The older you get, the more fragile you understand life to be. I think that's good motivation for getting out of bed joyfully each day. ~ Julia Roberts",
-        "The purpose of our lives is to be happy. ~ Dalai Lama",
-        "Be there for others, but never leave yourself behing. ~ Dodinsky",
-        "Life isn't about finding yourself. Life is about creating yourself. ~ George Bernard Shaw",
-        "Not in doing what you like, but in liking what you do is the secret of happiness. ~J.M. Barrie",
-        "You will face many defeats in life, but never let yourself be defeated. ~ Maya Angelou",
-        "A life lived in love will never be dull. ~ Leo Buscaglia",
-        "Where there is no struggle, there is no strength. ~ Oprah Winfrey",
-        "Stay awake, stand firm in your faith, be brave, be strong. ~ 1 Corinthians 16:13",
-        "Do not pray for an easy life, pray for the strength to endure a difficult one. ~ Bruce Lee",
-        "You never know how strong you are, unit being strong is your only choice. ~ Bob Marley",
-        "Believe you can and you're halfway there. ~ Theodore Roosevelt",
-        "You were given this life because you are strong enough to live it. ~ Ain Eineziz",
-        "Nothing can dim the light which shines from within. ~ Maya Angelou",
-        "Friendship is the golden thread that ties the heart of all the world. ~ John Evelyn",
-        "Friendship isn't a big thing - it's a million little things. ~ Paulo Coelho",
-        "A real friend is one who walks in when the rest of the world walks out. ~ Walter Winchell",
-        "A good friend is like a four-leaf clover; hard to find and lucky to have. ~ Irish Proverb",
-        "True friends are never apart, maybe in distance but never in heart. ~ Helen Keller",
-        "True friendship resists time, distance, and silence. ~ Isabel Allende",
-        "A friend is one of the best things you can be and the greatest things you can have. ~ Sarah Valdez",
-        "A leader is one who knows the way, goes the way, and shows the way. ~ John Maxwell",
-        "Integrity, insight, and inclusiveness are the three essential qualities of leadership. ~ Sadhguru",
+        "The meaning of Karma is in the intention. The intention behind action is what matters. ~ Bhagavad Gita",
+        "He alone sees truly who sees the lord the same in every creature, seeing the same lord everywhere, he does not harm himself or others. ~ Bhagavad Gita",
+        "Change is the law of the Universe. You can be a millionaire or a beggar in a moment. ~ Bhagavad Gita",
+        "Death is as sure for that which is born, as birth is for that which is dead. Therefore grieve not for what is inevitable. ~ Bhagavad Gita",
+        "No one who does good work will ever come to a bad end, either here or in the world to come. ~ Bhagavad Gita",
+        "Whatever you do, make it an offering to the food you eat, the sacrifices you make, the help you give, even your suffering. ~ Bhagavad Gita",
+        "The power of God is with you at all times; through the activities of mind, senses, breathing, and emotions; and is constantly doing all the work using you as a mere instrument. ~ Bhagavad Gita",
+        "There is no truth superior to Me. Everything rests upon Me, as pearls are strung on a thread. ~ Bhagavad Gita",
+        "I am born in every age to protect the good, to destroy evil, and to reestablish dharma. ~ Bhagavad Gita",
+        "Of the unreal, there is no existence. Of the real there is no nonexistence. The final truth of both of these is known by men of wisdom. ~ Bhagavad Gita",
+        "Renounce the ego of individuality and rejoice in the bliss of infinity. ~ Bhagavad Gita",
+        "The immature think that knowledge and action are different, but the wise see them as the same. ~ Bhagavad Gita",
+        "I am the beginning, middle, and end of creation. ~ Bhagavad Gita",
+        "A man who is really earnest must begin with himself, he must be passively aware of all his thoughts, feelings and actions. ~ Bhagavad Gita",
+        "Fill your mind with me; love me; serve me; worship me always. Seeking me in your heart, you will at last be united with me. ~ Bhagavad Gita",
+        "Choosing the right over the pleasant is a sign of power. ~ Bhagavad Gita",
+        "If you do karma with selfless action, then you will be able to free yourself from the bondage of desires. ~ Bhagavad Gita",
+        "The soul migrates from body to body. Weapons cannot cleave it, nor fire consume it, nor water drench it, nor wind dry it. ~ Bhagavad Gita",
+        "He who has no attachments can really love others. For his love is pure and divine ~ Bhagavad Gita",
+        "What has happened has happened for good, what is happening is also happening for good, and what will happen will also be for good. ~ Bhagavad Gita",
+        "The wise work for the welfare of the world, without thought for themselves. ~ Bhagavad Gita",
+        
+        
         
         
     ]
