@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         view.backgroundColor = .systemIndigo
         imageView.frame = CGRect(x: 0, y: 0, width: 300, height: 300)
-        imageView.layer.cornerRadius = 10.0
+//        imageView.layer.cornerRadius = 10.0
         imageView.center = view.center
         view.addSubview(imageView)
         view.addSubview(button)
@@ -100,10 +100,8 @@ class ViewController: UIViewController {
     ]
     func getRandomQuote(){
         let quoteView = UITextView(frame: CGRect(x: 0, y: 0, width: 300, height: 300))
-//        let label = UITextView(frame: quoteView)
         quoteView.text = quotes.randomElement()!
         quoteView.center = view.center
-//        quoteView.numberOfLines = 0
         quoteView.font = .italicSystemFont(ofSize: 20)
         view.addSubview(quoteView)
         
