@@ -93,8 +93,42 @@ class ViewController: UIViewController {
         "He who has no attachments can really love others. For his love is pure and divine ~ Bhagavad Gita",
         "What has happened has happened for good, what is happening is also happening for good, and what will happen will also be for good. ~ Bhagavad Gita",
         "The wise work for the welfare of the world, without thought for themselves. ~ Bhagavad Gita",
-        
-        
+        "Choosing the right over the pleasant is the sign of power ~ Bhagavad Gita",
+        "The one who is motivated only by the desire for the fruits of their action, and anxious about the results, is miserable indeed. ~ Bhagavad Gita",
+        "The causes of anger rarely hurt us as much as the consequences of anger. ~ Bhagavad Gita",
+        "Just because we have a right to be angry doesn't mean we are right to be angry. ~ Bhagavad Gita",
+        "A gift is pure when it is given from the heart to the right person at the right time and at the right place, and when we expect nothing in return. ~ Bhagavad Gita",
+        "We are kept from our goal, not by obstacles, but by a clear path to a lesser goal. ~ Bhagavad Gita",
+        "No one should abandon duties because he sees defects in them. Every action, every activity, is surrounded by defects as fire is surrounded by smoke. ~ Bhagavad Gita",
+        "Better indeed is knowledge than mechanical practice. Better than knowledge is meditation. ~ Bhagavad Gita",
+        "The mind acts like an enemy for those who do not control it. ~ Bhagavad Gita",
+        "As a human being puts on new garments, giving up old ones, the soul similarly accepts new material bodies, giving up the old and useless ones. ~ Bhagavad Gita",
+        "He who is deluded by the ego thinks, I am the doer. ~ Bhagavad Gita",
+        "Whatever action is performed by a great man, common men follow in his footsteps, and whatever standards he sets by exemplary acts, all the world pursues. ~ Bhagavad Gita",
+        "Work for work's sake, not for yourself. Act but do not be attached to your actions. Be in the world, but not of it. ~ Bhagavad Gita",
+        "When consciousness is unified, however, all vain anxiety is left behind. There is no cause for worry, whether things go well or ill. ~ Bhagavad Gita",
+        "Those established in self-realization control their senses instead of letting their senses control them. ~ Bhagavad Gita",
+        "Be aware of me always, adore me, make every act an offering to me, and you shall come to me; this I promise; for you are dear to me. ~ Bhagavad Gita",
+        "Out of compassion, I destroy the darkness of their ignorance. From within them I light the lamp of wisdom and dispel all darkness from their lives. ~ Bhagavad Gita",
+        "Fear of failure, from being emotionally attached to the fruit of work, is the greatest impediment to success. ~ Bhagavad Gita",
+        "We never really encounter the world; all we experience is our own nervous system. ~ Bhagavad Gita",
+        "I enter into each planet, and by My energy, they stay in orbit. I become the moon and thereby supply the juice of life to all vegetables. ~ Bhagavad Gita",
+        "Curving back within myself I create again and again. ~ Bhagavad Gita",
+        "The peace of God is with them whose mind and soul are in harmony, who are free from desire and wrath, who know their own soul. ~ Bhagavad Gita",
+        "The man who sees me in everything and everything within me will not be lost to me, nor will I ever be lost to him. ~ Bhagavad Gita",
+        "Selfish action imprisons the world. Act selflessly, without any thought of personal profit. ~ Bhagavad Gita",
+        "Reshape yourself through the power of your will; never let youself be degraded by self-will. ~ Bhagavad Gita",
+        "The true goal of action is knowledge of the self. ~ Bhagavad Gita",
+        "When a person responds to the joys and sorrows of others as if they were his own, he has attained the highest state of spiritual union. ~ Bhagavad Gita",
+        "There was never a time when I did not exist, nor you, nor any of these kings. Nor is there any future in which we shall cease to be. ~ Bhagavad Gita",
+        "Actions do not cling to me because I am not attached to their results. Those who understand this and practice it live in freedom. ~ Bhagavad Gita",
+        "His judgment will be better and his vision clear if he is not emotionally entangled in the outcome of what he does. ~ Bhagavad Gita",
+        "The struggle for self-mastery that every human being must wage if he or she is to emerge from life victorious. ~ Bhagavad Gita",
+        "Cultivate vigor, patience, will, purity; avoid malice and price. ~ Bhagavad Gita",
+        "Earth, water, fire, air, akasha, mind, intellect, and ego - these are the eight divisions of my prakriti. ~ Bhagavad Gita",
+        "The soul is neither born and nor does it die. ~ Bhagavad Gita",
+        "Man is made by his belief. As he believes, so he is. ~ Bhagavad Gita",
+        "Do everything you have to do, but not with greed, not with ego, not with lust, not with envy but with love, compassion, humility, and devotion. ~ Bhagavad Gita"
         
         
     ]
@@ -104,7 +138,6 @@ class ViewController: UIViewController {
         quoteView.center = view.center
         quoteView.font = .italicSystemFont(ofSize: 20)
         view.addSubview(quoteView)
-        
         
     }
     
